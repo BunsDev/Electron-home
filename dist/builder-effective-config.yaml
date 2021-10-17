@@ -1,0 +1,14 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.app.id
+productName: React Electron App
+files:
+  - filter:
+      - build/**/*
+      - electron/main.ts
+      - package.json
+extends: null
+mac:
+  type: distribution
+electronVersion: 15.2.0
